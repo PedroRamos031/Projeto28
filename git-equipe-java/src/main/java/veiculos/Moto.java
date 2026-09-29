@@ -20,6 +20,13 @@ public class Moto extends Veiculo {
         System.out.println("Modelo: " + getModelo());
         System.out.println("Ano: " + getAno());
         System.out.println("Cilindrada: " + getCilindrada());
+
+        @Override
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("Cilindrada: " + cilindrada);
+    }
+    
     }
     
     

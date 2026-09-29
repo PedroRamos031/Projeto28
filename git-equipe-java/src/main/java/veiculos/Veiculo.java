@@ -31,5 +31,9 @@ public class Veiculo {
 
     public void setAno(int ano) {
         this.ano = ano;
+
+        public void exibirDados() {
+        System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano);
+    }
     }
 }
